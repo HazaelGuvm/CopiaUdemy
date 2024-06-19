@@ -1,0 +1,125 @@
+html{
+    font-size: 62.2%;
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.container{
+    max-width: 1100px;
+    width: 85%;
+}
+
+/*header*/
+
+.input-container {
+    flex: 2;
+    position: relative;
+    text-align: center;
+    margin-top: -17px;
+}
+
+.input-container input {
+    width: 330%;
+    padding:1.5rem;
+    border-radius: 9999px;
+
+}
+
+.input-container i {
+    font-size: 1.2rem;
+    position:fixed;}
+
+.header{
+display: flex;
+margin: 1rem auto;
+}
+
+.logo{
+    margin-right: 20px;
+    margin-left: -190px;
+    width: 100px;
+    height: 50px;
+    transition: all 300 ms;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
+    }
+.logo>img{
+    margin-left: 20px;
+    margin-right: 10px;}
+    
+.nav{
+margin-top: 20px;
+display: flex;
+font-size: 14px;
+font-weight:lighter;
+}
+
+.nav>a{ 
+    color: rgb(10, 10, 10);
+    margin-left: 9rem;
+    margin-right: 2rem;
+    }
+    
+ul{
+    justify-content: center;
+    color: black;
+    font-size: 11x;
+    display: flex;
+    list-style: none;
+       
+}
+li{
+    padding: 10px;
+}
+.mg{
+    display: flex;
+    padding: 80px;
+    padding-top: 10px;
+}
+.anadir{
+    margin: 10px 160px;
+    margin-top: -130px;
+}
+.pensante{
+    padding: 50px;
+    padding-top: 0px;
+}
+.echado{
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    padding: 2.4rem;
+    width: 34rem;
+    left: 100px;
+    top: 320px;
+    background-color: white;
+}
+.boton{
+    position: absolute;
+    padding: 2.4rem;
+    width: 34rem;
+    left: 10px;
+    top: 500px;
+
+}
+
+.boton2{
+    position: absolute;
+    padding: 2.4rem;
+    width: 34rem;
+    left: 1300px;
+    top: 500px;
+}
+
